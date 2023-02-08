@@ -25,3 +25,30 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+#Header-1{
+    
+    
+    align-items: center;
+    border-radius: .7em;
+    
+    justify-content: center;
+    
+    background-image: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 75px;
+}
+h1{
+    display: inline;
+    color: violet;
+    margin: auto;
+    text-align: center;
+   
+}
+
+body{
+    max-width: 850px;
+    margin: auto;
+}
