@@ -29,6 +29,8 @@ Images:
 body {
     max-width: 850px;
     margin: auto;
+    background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
+    background-size: cover;
 }
 
 #Header-1 {
@@ -51,12 +53,21 @@ h1 {
 #jordans-1 {
     box-shadow: 5px 1px 4px blue;
 }
+#jordans-2{ 
+    margin-top: 20px;
+    box-shadow: -5px -1px 4px red;
+    float: right;
+    display: block;
 
+}
 #row1-section2 {
+   
+    margin-top: 10px;
     border: 5px solid rgb(241, 147, 0);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 2px;
     background-color: rgb(6, 216, 231);
+    margin-right: 230px
 }
 
 #jordans-1-desc {
@@ -64,4 +75,24 @@ h1 {
     font-size: 25px;
     color: white;
 
+}
+
+#jordans-2-desc{
+    float: right;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    
+
+}
+
+#row2-section2{
+    /* add width so it the same size as image for both*/
+    float: right;
+    margin-top: 10px;
+    border: 5px solid rgb(112, 236, 87);
+    border-radius: 15px;
+    padding: 2px;
+    background-color: rgb(231, 95, 90);
+    margin-left: 230px;
 }
