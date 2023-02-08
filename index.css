@@ -26,29 +26,42 @@ Images:
     - (You may use any image you would like for the background!)
 */
 
-#Header-1{
-    
-    
-    align-items: center;
-    border-radius: .7em;
-    
-    justify-content: center;
-    
-    background-image: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    height: 75px;
-}
-h1{
-    display: inline;
-    color: violet;
-    margin: auto;
-    text-align: center;
-   
-}
-
-body{
+body {
     max-width: 850px;
     margin: auto;
+}
+
+#Header-1 {
+    background-image: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
+    font-family: 'Courier New', Courier, monospace;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    border-radius: .7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: violet;
+    text-align: center;
+}
+
+#jordans-1 {
+    box-shadow: 5px 1px 4px blue;
+}
+
+#row1-section2 {
+    border: 5px solid rgb(241, 147, 0);
+    border-radius: 10px;
+    padding: 2px;
+    background-color: rgb(6, 216, 231);
+}
+
+#jordans-1-desc {
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+
 }
